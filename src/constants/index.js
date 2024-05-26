@@ -57,10 +57,10 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "Blockchain Developer",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -120,27 +120,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Developer Intern",
+    company_name: "MechBuddy",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Dec 2023 - Jan",
+    points: [
+      "Designed and applied responsive user interfaces with React, leading to a 15% improvement in user satisfaction scores.",
+      "Collaborated with team members to successfully manage projects, achieving a 10% reduction in project turnaround time.",
+      "Revised backend and database for a web application using MongoDB and Node.js, resulting in a 15% improvement in database query performance ensuring a scalable and efficient architecture",
+    ],
+  },
+  {
     title: "Team Lead",
     company_name: "Bharattech Pvt. Ltd.",
     icon: bharattech,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2023 - Sept 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer Intern",
-    company_name: "Bharattech Pvt. Ltd.",
-    icon: bharattech,
-    iconBg: "#E6DEDD",
-    date: "March 2023 - June 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Engineered the development of 2 responsive and scalable applications, achieving a 15% improvement in project efficiency.",
+      "Led a cross-functional team in implementing a new feature using React and Redux, resulting in a 10% increase in code efficiency.",
+      "Optimized the application program, reducing page load times by 15% and enhancing overall application performance.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -157,19 +157,7 @@ const experiences = [
       // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  
 ];
 
 const testimonials = [
